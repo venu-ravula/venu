@@ -1,0 +1,626 @@
+small{
+  font-weight: 200;
+}
+html{
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+#agentcardBody{
+  padding: 0px;
+}
+.agentSummery{
+  background-color: #eb6344;
+  color: white
+}
+.mb-3{
+  width: 7em;
+  margin-right: 2em
+}
+.ulbrow{
+  margin-left: 1em;
+}
+
+
+/* Home.js*/
+
+.rect1{
+  background-color: #478E41;
+  height:100vh;
+  max-width: 28%;
+}
+.d-block{
+  height: 11.96em;
+}
+.carousel{
+  border-radius: 10px;
+     overflow: hidden;  
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .15);
+  border-color: 0px solid #eee;
+  border: none;
+  height: 14em;
+ 
+}
+#carouselExampleIndicators{
+border: none;
+background-color: white;
+}
+
+.welcome-image{
+   width: 26.2%;
+   height: 63.7%;
+   position: absolute;
+   z-index: 1;
+   top: 25%;
+   bottom: 25%;
+   left: 14.5%;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   border-radius: 2px;
+   box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.16);
+  
+}
+
+@keyframes fadeIn {
+  from {
+     opacity: 0;
+  }
+  to {
+     opacity: 1;
+  }
+}
+
+/* .logo1{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    height: 6.6%;
+    width: 4.3%;
+} */
+.logo1{
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    height: 18.6%;
+    width: 12.3%;
+}
+.search-head{
+  left: 36%;
+    bottom: 100%;
+    position: absolute;
+    width: 28.1%;
+    height: 9.3%;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #000000;
+}
+.ddn-button{
+  width: 14.9%;
+  height: 3.7%;
+  margin-top: 1em;
+  opacity: 1;
+  border-radius: 35px;
+  border: solid 2px #71afe4;
+  background-color: #ffffff;
+}
+.ddn-button:active{
+  outline: none;
+  border: none;
+}
+.ddn-button:focus{
+  outline: none;
+}
+ddn-btn-text{
+  width: 8.8%;
+    height: 2%;
+    font-family: source-sans-pro, sans-serif;;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.32px;
+    text-align: center;
+    color: #000000;
+}
+.zp-button{
+    width: 8.1%;
+    height: 3.7%;
+    margin-top: 1em;
+    opacity: 1;
+    border-radius: 35px;
+    background-color: #e5e5e5;
+}
+.zp-button:focus{
+  outline: none;
+}
+.ddn-button:focus,
+.zp-button:focus{
+  border: 0px;
+}
+.inputText-home{
+  width: 34.5%;
+  height: 3em;
+  border-radius: 2px;
+  border: solid 2px #71afe4;
+  background-color: #ffffff;
+}
+
+._inputText-home{
+  width: 35%;
+  height: 4em;
+  border-radius: 2px;
+  border: solid 2px #71afe4;
+  background-color: #ffffff;
+  display: inline-block;
+}
+._inputText-home-zp{
+  width: 35%;
+  height: 4em;
+  border-radius: 2px;
+  border: solid 2px #71afe4;
+  background-color: #ffffff;
+  display: inline-block;
+}
+.input-box{
+  width: 21%;
+  border: 0px;
+  margin-top: 2%;
+  font-size: 24px;
+  opacity: 0.25;
+  font-family: source-sans-pro, sans-serif;;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+.input-box-zp{
+  width: 70%;
+  border: 0px;
+  margin-top: 2%;
+  font-size: 24px;
+  opacity: 0.25;
+  font-family: source-sans-pro, sans-serif;;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+.input-box:focus{
+  outline: none;
+  opacity: 1;
+}
+.input-box:valid{
+  outline: none;
+  opacity: 1;
+}
+.input-box-zp:focus{
+  outline: none;
+  opacity: 1;
+}
+.input-box-zp:valid{
+  outline: none;
+  opacity: 1;
+}
+.search-btn:focus{
+  outline: none;
+}
+.data-fields{
+  position: absolute;
+  top: 33%;
+  left: 14%;
+}
+#carouselExampleIndicators{
+     height: 14em;
+     background-color: white;
+     border: solid 1px #bfbfbf;
+     width: 35%;
+     margin-left: 32%;
+
+}
+#aaa{
+  height: 5em;
+}
+
+.carousel-indicators li {
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  background-color: #d3d3d3
+}
+.carousel-indicators {
+top: 12em;
+}
+.carousel-indicators .active {
+    background-color:#898989;
+}
+.search-btn{
+  border:0px ;
+  height: 40px;
+  background-color:white;
+  margin-left: 5px;
+}
+.below-titles {
+  margin-right: 2%;
+}
+.below-titles > small{
+  padding: 1.2em;
+  opacity: 0.4;
+    font-family: source-sans-pro, sans-serif;;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.38;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #000000;
+}
+::placeholder {
+  
+  opacity: 0.5; /* Firefox */
+}
+
+.fa-search{
+    height: 26px;
+    width: 27px;
+    left: 63%;
+    top: 23%;
+    position: absolute;
+    opacity: 0.25;
+}
+.fa-search:active{
+opacity: 1;
+}
+.fa-exclamation-circle{
+opacity: 0.4;
+}
+
+
+/*
+@media only screen and (max-width: 1002px) and (min-width: 500px) {
+  #carouselExampleIndicators {
+    width: 23em;
+  }
+}
+
+@media only screen and (min-width: 931px) {
+.switchery-default{
+  right: 49%;
+  float: left;
+}
+}
+@media only screen and (min-width: 931px) {
+.main-container{
+  padding: 0px;
+}
+}
+*/
+.main-container{
+  padding: 0px;
+}
+
+/*Larget Screens*/
+@media only screen and (min-width: 1500px) and (max-width: 1800px) {
+  .below-titles > small {
+       padding: 2em
+    }
+}
+@media only screen and (min-width: 1801px)  {
+  .below-titles > small {
+       padding: 3em
+    }
+}
+
+
+
+/*    Tabs     */
+@media only screen and (min-width: 768px) and (max-width: 1128px) {
+  .input-box{
+    margin-top: 4%;
+    font-size: 18px;
+  }
+  .ddn-btn-text{
+    font-size: 12px;
+  }
+  .search-head{
+    width: 40.1%;
+    left: 12em;
+  }
+  .ddn-button{
+    width: 22%;
+  }
+  .zp-button {
+    width: 11.1%;
+  }
+  ._inputText-home {
+    width: 39%;
+  }
+  #carouselExampleIndicators{
+    width: 39%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 845px) {
+  
+  .fa-search {
+    left: 64%;
+    top: 32%;
+  }
+  .input-box{
+    margin-top: 5%;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+  .below-titles > small{
+    padding: 0em;
+  }
+  .input-box{
+    margin-top: 5%;
+    font-size: 18px;
+  }
+} 
+@media only screen and (min-width: 1129px) and (max-width: 1409px) {
+.ddn-btn-text{
+  font-size: 13px;
+}
+}
+@media only screen and (min-width: 1129px) and (max-width: 1243px) {
+  .ddn-button{
+    width: 16.9%;
+  }
+  .zp-button {
+    width: 10.1%;
+  }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 816px) {
+  .zp-button{
+    width: 14%;
+  }
+ 
+}
+@media only screen and (min-width: 768px) and (max-width: 845px) {
+  .fa-search {
+    top: 27%;
+  }
+  .search-head {
+    width: 42.1%;
+    left: 10em;
+  }
+}
+
+/*   Mobiles   */
+@media only screen and (min-width: 651px) and (max-width: 767px) {
+  .ddn-btn-text{
+    font-size: 10px;
+  }
+  .input-box{
+    margin-top: 5%;
+    font-size: 14px;
+  }
+  .logo1{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    z-index: 1;
+    background-color: white;
+    height: 6.6%;
+    width: 4.3%;
+    display: none;
+  }
+.rect1{
+  height: 27em;
+  padding: 0px;
+  max-width: 100%;
+}
+.data-fields {
+  top: 31em;
+  left: 0%;
+  
+}
+.search-head{
+  left: 27%;
+  width: 45.1%;
+}
+.ddn-button {
+  width: 30.9%;
+}
+.zp-button {
+  width: 19.1%;
+}
+._inputText-home {
+  width: 70%;
+}
+.fa-search {
+  left: 77%;
+}
+#carouselExampleIndicators {
+  width: 70%;
+  margin-left: 14%;
+}
+.welcome-image {
+  width: 50.2%;
+  height: 82.7%;
+  left: 26%;
+
+}
+}
+@media only screen  and (max-width: 650px) {
+  .ddn-btn-text{
+    font-size: 10px;
+  }
+  .below-titles > small {
+    padding: 0.5em;
+    }
+  .input-box{
+    margin-top: 5%;
+    font-size: 16px;
+  }
+  .rect1{
+      height: 12.5em;
+      padding: 0px;
+      max-width: 100%;
+  }
+  .data-fields {
+    top: 27em;
+    left: 0%;
+  }
+  .search-head{
+  left: 7%;
+  width: 87%;
+  }
+  .logo1{
+    right: 10%;
+    background: white;
+    z-index: 1;
+    display: none;
+  }
+  .welcome-image {
+     width: 57.2%;
+      height: 20em;
+        left: 22%;
+        top: 12.5em;
+      bottom: 12%;
+}
+#other-white{
+  position: static;
+}
+  .ddn-button {
+    width: 53.9%;
+  }
+  .zp-button {
+    width: 30.1%;
+  }
+  ._inputText-home {
+    width: 94%;
+  }
+  .fa-search{
+    top: 25%;
+    left: 82%;
+  }
+  #carouselExampleIndicators{
+    width: 90%;
+    margin-left: 4%;
+  }
+}
+
+@media only screen  and (max-width: 385px) {
+.fa-search{
+    top: 24%;
+    left: 81%;
+}
+.below-titles > small {
+padding: 0em;
+}
+.ddn-btn-text {
+  font-size: 11px;
+}
+.search-head {
+  font-size: 18px;
+}
+}
+@media only screen  and (max-width: 767px) {
+  ._inputText-home-zp {
+    width: 94%;
+  }
+}
+ @media only screen  and (max-width: 346px) {
+  .search-btn {
+    height: 0px;
+  }
+ }
+ 
+
+ /*Larger screens*/
+ @media only screen  and (min-width: 1800px) {
+#carouselExampleIndicators {
+    height: 16em;
+}
+.carousel-indicators {
+    top: 16em;
+  } 
+  ddn-button {
+  margin-top: 3em;
+  height: 3em;
+  }
+  .zp-button {
+  height: 3em;
+  }
+  .ddn-btn-text{
+  font-size: 18px;
+  }
+  .below-titles  > small {
+   font-size:14px;
+  }
+  .ddn-button{
+    height: 3em;
+    margin-bottom: 0em;
+    margin-top: 2em;
+    margin-right: 1.5em;
+  }
+  .zp-button{
+    height: 3em;
+  }
+  ._inputText-home{
+   height: 5em;
+  }
+  .fa-lg {
+    font-size: 2.333333em;
+    top: 27%;
+  }
+  .search-head{
+    width: 30%;
+    font-size: 38px;
+    bottom: 110%;
+    left: 34%;
+  }
+  .input-box{
+    margin-top: 3%;
+      width: 22%;
+  }
+  ._inputText-home-zp{
+    height: 5em;
+   }
+   .input-box-zp {
+    margin-top: 3%;
+   }
+   .below-titles > small {
+    padding: 3em;
+   }
+ 
+}
